@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (NEVER upload API keys)
+.env
+*.env
+
+# Virtual environment folder
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model files (too large for GitHub)
+models/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw data (too large for GitHub)
+data/raw/train.csv
+data/raw/test.csv
+data/raw/sample_submission.csv

@@ -1,0 +1,31 @@
+item_name,quantity,purchase_date,expiry_date,category,wasted
+Milk,2,2024-01-01,2024-01-07,Dairy,yes
+Bread,1,2024-01-01,2024-01-05,Bakery,yes
+Eggs,12,2024-01-02,2024-01-20,Dairy,no
+Chicken,1,2024-01-03,2024-01-06,Meat,yes
+Yogurt,3,2024-01-04,2024-01-10,Dairy,yes
+Apples,6,2024-01-01,2024-01-14,Fruit,no
+Cheese,1,2024-01-02,2024-01-15,Dairy,no
+Beef,2,2024-01-06,2024-01-08,Meat,yes
+Bananas,5,2024-01-01,2024-01-06,Fruit,yes
+Orange Juice,1,2024-01-03,2024-01-10,Beverages,no
+Tomatoes,4,2024-01-05,2024-01-09,Vegetables,yes
+Spinach,1,2024-01-06,2024-01-08,Vegetables,yes
+Rice,5,2024-01-01,2024-03-01,Grains,no
+Pasta,3,2024-01-02,2024-04-01,Grains,no
+Butter,1,2024-01-01,2024-01-20,Dairy,no
+Strawberries,2,2024-01-07,2024-01-10,Fruit,yes
+Fish,1,2024-01-08,2024-01-10,Meat,yes
+Lettuce,1,2024-01-05,2024-01-08,Vegetables,yes
+Potatoes,6,2024-01-03,2024-02-01,Vegetables,no
+Cream,1,2024-01-04,2024-01-09,Dairy,yes
+Mango,3,2024-01-06,2024-01-11,Fruit,no
+Sausages,2,2024-01-07,2024-01-12,Meat,yes
+Cucumber,2,2024-01-05,2024-01-09,Vegetables,no
+Oats,1,2024-01-01,2024-06-01,Grains,no
+Grapes,1,2024-01-08,2024-01-11,Fruit,yes
+Canned Tuna,3,2024-01-01,2024-12-01,Canned,no
+Onions,5,2024-01-02,2024-01-25,Vegetables,no
+Sour Cream,1,2024-01-05,2024-01-10,Dairy,yes
+Blueberries,1,2024-01-09,2024-01-12,Fruit,yes
+Pork,1,2024-01-08,2024-01-11,Meat,no
