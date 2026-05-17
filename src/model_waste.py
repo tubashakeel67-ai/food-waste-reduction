@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 import joblib
 import os
 
+
 # Import data loading and cleaning function from eda module
 from eda import load_and_clean
 
@@ -44,4 +45,4 @@ print(importance_df.to_string(index=False))
 
 # Step 9: Save trained model to models folder
 joblib.dump(model, 'models/waste_model.pkl')
-print("✅ Model saved successfully!")
+print("Model saved successfully!")

@@ -34,5 +34,5 @@ if __name__ == "__main__":
     df = load_and_clean()
     # Save cleaned data to processed folder
     df.to_csv(PROCESSED_PATH, index=False)
-    print("✅ Data cleaned successfully!")
+    print("Data cleaned successfully!")
     print(df.head())     
