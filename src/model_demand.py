@@ -78,3 +78,32 @@ joblib.dump(model, os.path.join(BASE_DIR, '..', 'models', 'demand_model.pkl'))
 print("\nModel Saved!")
 
 
+"""
+########################################################################
+                        Summary
+########################################################################
+Model 2: XGBoost Regressor — Demand Prediction
+
+Performance:
+- RMSE: 238.09 — high due to skewed order data
+- Improvement: log transformation on target variable can reduce RMSE significantly
+
+Key Findings:
+- category_Rice Bowl is the most critical feature (21.9% importance)
+- category_Sandwich is second most important (18.2% importance)
+- homepage_featured drives demand significantly (8.2% importance)
+- emailer_for_promotion impacts order volume (7.6% importance)
+- discount surprisingly has low importance (1.2%)
+
+Business Actions:
+- Prioritize Rice Bowl and Sandwich inventory — highest demand categories
+- Use homepage featuring strategically to boost low-demand meals
+- Send emailer promotions for slow-moving meal categories
+- Reduce production of Biryani and Pasta to avoid over-preparation
+
+Improvement Path:
+- Apply log transformation on num_orders to handle skewed data
+- Include center_info.csv features for location-based predictions
+- Add seasonal and weather data for more accurate forecasting
+
+"""

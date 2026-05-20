@@ -46,3 +46,29 @@ print(importance_df.to_string(index=False))
 # Step 9: Save trained model to models folder
 joblib.dump(model, 'models/waste_model.pkl')
 print("Model saved successfully!")
+
+
+
+"""
+
+########################################################################
+Summary
+########################################################################
+
+
+Model 1: Random Forest — Waste Prediction
+Performance: 66% accuracy on 30-row dataset
+
+Key Findings:
+- shelf_life_days is the most critical feature (50% importance)
+- Items with shelf life under 10 days are at highest waste risk
+- Meat (80%) and Bakery (100%) categories need immediate attention
+
+Business Actions:
+- Reduce orders for Meat and Bakery categories
+- Implement expiry alerts for items under 10 days shelf life
+
+Improvement Path:
+- Accuracy will significantly improve with larger dataset (1000+ rows)
+
+"""
