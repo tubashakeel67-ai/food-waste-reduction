@@ -14,9 +14,6 @@ env/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Model files (too large for GitHub)
-models/*.pkl
-
 # OS files
 .DS_Store
 Thumbs.db
